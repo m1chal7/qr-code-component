@@ -38,6 +38,10 @@ body {
     background: $lgray;
 
 }
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
 img {
     max-width: 100%;
 }
@@ -52,8 +56,9 @@ img {
     flex-direction: column;
     background: $white;
     border-radius: 15px;
-    padding: 2rem;
-    max-width: 350px;
+    padding: 1rem;
+    max-width: 250px;
+    box-shadow: 0px 0px 20px 0px #d1d1d1;
 
 }
 .qr-component img {
@@ -64,11 +69,13 @@ img {
     font-size: 22px;
     text-align: center;
     color: $dblue;
+    padding-top: 25px;
 }
 .qr-component p {
     font-size: 15px;
     text-align: center;
     color: $gblue;
+    padding: 10px 0 15px 0;
 }
 
 
